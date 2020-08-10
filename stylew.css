@@ -1,0 +1,234 @@
+Body {
+background-color:#FFFAFA;
+font-size:16px;
+font-family:roboto;
+height:100%;
+margin:1px;
+padding:1px;
+}
+
+a {
+text-decoration:none;
+}
+
+.header {
+overflow: hidden;
+background-color: #fddfab;
+padding: 20px 10px;
+}
+
+.header a {
+float: left;
+color: black;
+text-align: center;
+padding:15px;
+padding-bottom: -5px;
+text-decoration: none;
+font-size: 23px;
+line-height: 25px;
+border-radius: 4px;
+}
+
+.header a.logo {
+font-size: 25px;
+font-weight: bold;
+}
+
+.header a:hover {
+background-color: #ffe3b3;
+color: black;
+}
+
+.header a.active {
+background-color: #f09800;
+color: white;
+}
+
+.header-right {
+float: right;
+}
+
+@media screen and (max-width: 500px) 
+{
+    .header a {
+    float: none;
+    display: block;
+    text-align: left;
+    }
+
+    .header-right {
+    float: none;
+    }
+
+}
+
+.header img {
+    float: left;
+    padding: -15px;
+    margin-top:-10px;
+    padding-left: 25px;
+}
+.favback {
+background-image:url("https://favoredonline.com/images/SOFT.jpg");
+height: 60%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.imagesContainer {
+	width: 850px;
+    height: 500px;
+    padding-bottom: 0px;
+    margin-bottom: -250px;
+    margin-left: 230px;
+    margin-top: 100px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: rgba(0,0,0,0.2) 10px 10px 10px;
+}
+
+.imagesContainer img {
+	width: 850px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	20% { opacity: 0; }
+	60% { opacity: 1; }
+	100% { opacity: 1; }
+}
+
+.fadeInClass {
+    height: 30rem;
+	animation-name: fadeIn;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+    animation-timing-function: linear;
+    
+}
+
+img {
+padding:1%;
+margin:1%;
+}
+
+h3 {
+clear:left;
+}
+
+.categr {
+background-color:#f8c772;
+width:100%;
+margin:auto;
+height: auto;
+display:inline-block;
+border-top:outset thin #f8c772;
+box-sizing: border-box;
+}
+
+.categr1 {
+float:left;
+width:12%;
+height: auto;
+display:block;
+padding:1%;
+text-align:left;
+margin:1%
+}
+
+.footer {
+width:100%;
+margin:auto;
+background-color:#f8c772;
+box-sizing: border-box;
+}
+
+.signature {
+text-align:center;
+max-width:100%;
+margin:1%;
+box-sizing: border-box;
+}
+
+.reach {
+background-color:#f8c772;
+border-radius: 15px 15px;
+text-align: center;
+font-weight: bold;
+display: inline-block;
+font-size: 20px;
+padding: 2px 7px;
+margin-top: 4%;
+}
+
+.reach:hover {
+    background-color: rgb(233, 187, 96);
+    color: black;
+}
+
+.catgt {
+width:100%;
+margin:auto;
+display:inline-block;
+background-color:#fddfab;
+padding-top: 20pt;
+}
+
+.catgt1 {
+float: left;
+width:27.5%;
+margin: 2%;
+display:inline-block;
+padding-bottom:5%;
+}
+
+.catgt2 {
+float:left;
+width:27.5%;
+margin:2%;
+display:inline-block;
+padding-top: -5%;
+margin-left: 2%;
+}
+
+@media screen and (max-width: 600px)
+{
+    .footer {
+    width:95%;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .catgt, .catgt1, .catgt2 {
+    width: 95%;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .favback background-image {
+    width: 95%;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .header {
+    width: 90%;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    .catgry, .catgry1 {
+    width: 95%;
+    }
+}
+
+    
